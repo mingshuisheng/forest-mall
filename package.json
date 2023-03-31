@@ -1,0 +1,11 @@
+{
+  "name": "forest-mall",
+  "version": "0.0.1",
+  "description": "一个商城项目",
+  "author": "mingshuisheng",
+  "scripts": {
+    "dev:apps": "pnpm --parallel --filter \"./apps/**\" run dev",
+    "dev:packages": "pnpm --parallel --filter \"./packages/**\" run dev"
+  },
+  "license": "MIT"
+}

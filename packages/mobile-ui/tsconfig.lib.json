@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": false,
+    "module": "CommonJS",
+    "outDir": "dist/cjs"
+  },
+  "exclude": ["**/*.spec.tsx", "src/index.css"],
+  "include": ["src"]
+}
