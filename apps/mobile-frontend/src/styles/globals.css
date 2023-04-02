@@ -11,3 +11,14 @@ body{
     height: 100%;
     width: 100%;
 }
+
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}
+
+input:focus{
+    outline: none;
+}

@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head/>
-      <body style={{fontSize: "0.16rem"}}>
+      <body className="text-base">
       <Main/>
       <NextScript/>
       </body>
