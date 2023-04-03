@@ -1,7 +1,7 @@
-import {TabBarPage} from "@/componenst";
+import {TabBarPage} from "@/components";
 import {GetStaticProps} from "next";
-import {Header} from "@/componenst/home/Header";
-import {GoodsArea} from "@/componenst/home/GoodsArea";
+import {Header} from "@/components/home/Header";
+import {GoodsArea} from "@/components/home/GoodsArea";
 
 type Props = {}
 

@@ -1,10 +1,10 @@
 import {FC} from "react";
-import {CategoryList} from "./CategoryList";
+import {CategoryList} from "../category/CategoryList";
 import {Card} from "forest-mobile-ui";
-import {DiscountGoods} from "@/componenst/home/DiscountGoods";
-import {RecommendGoods} from "@/componenst/home/RecommendGoods";
-import {SortGoods} from "@/componenst/home/SortGoods";
-import {GoodsList} from "@/componenst/home/GoodsList";
+import {DiscountGoods} from "./DiscountGoods";
+import {RecommendGoods} from "./RecommendGoods";
+import {SortGoods} from "./SortGoods";
+import {GoodsList} from "./GoodsList";
 
 export const GoodsArea: FC = () => {
   return (
@@ -12,10 +12,10 @@ export const GoodsArea: FC = () => {
       <div className="mt-[0.1rem] px-[0.1rem]">
         <CategoryList/>
       </div>
-      <Card className="mt-[0.1rem]">
+      <Card round className="mt-[0.1rem]">
         <DiscountGoods/>
       </Card>
-      <Card className="mt-[0.1rem]">
+      <Card round className="mt-[0.15rem]">
         <RecommendGoods/>
       </Card>
       <div className="mt-[0.1rem] sticky top-0 bg-gray-100 py-2">

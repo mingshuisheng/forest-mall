@@ -97,6 +97,9 @@ importers:
       '@types/react-dom':
         specifier: 18.0.11
         version: 18.0.11
+      ahooks:
+        specifier: ^3.7.6
+        version: 3.7.6(react@18.2.0)
       classnames:
         specifier: ^2.3.2
         version: 2.3.2
@@ -161,9 +164,6 @@ importers:
       concurrently:
         specifier: ^8.0.1
         version: localhost+4873/concurrently@8.0.1
-      next:
-        specifier: 13.2.4
-        version: 13.2.4(@babel/core@7.21.3)(react-dom@18.2.0)(react@18.2.0)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -1698,6 +1698,7 @@ packages:
 
   /@next/env@13.2.4:
     resolution: {integrity: sha512-+Mq3TtpkeeKFZanPturjcXt+KHfKYnLlX6jMLyCrmpq6OOs4i1GqBOAauSkii9QeKCMTYzGppar21JU57b/GEA==}
+    dev: false
 
   /@next/eslint-plugin-next@13.2.4:
     resolution: {integrity: sha512-ck1lI+7r1mMJpqLNa3LJ5pxCfOB1lfJncKmRJeJxcJqcngaFwylreLP7da6Rrjr6u2gVRTfmnkSkjc80IiQCwQ==}
@@ -1711,6 +1712,7 @@ packages:
     cpu: [arm]
     os: [android]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-android-arm64@13.2.4:
@@ -1719,6 +1721,7 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-darwin-arm64@13.2.4:
@@ -1727,6 +1730,7 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-darwin-x64@13.2.4:
@@ -1735,6 +1739,7 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-freebsd-x64@13.2.4:
@@ -1743,6 +1748,7 @@ packages:
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-arm-gnueabihf@13.2.4:
@@ -1751,6 +1757,7 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-arm64-gnu@13.2.4:
@@ -1760,6 +1767,7 @@ packages:
     os: [linux]
     libc: [glibc]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-arm64-musl@13.2.4:
@@ -1769,6 +1777,7 @@ packages:
     os: [linux]
     libc: [musl]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-x64-gnu@13.2.4:
@@ -1778,6 +1787,7 @@ packages:
     os: [linux]
     libc: [glibc]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-linux-x64-musl@13.2.4:
@@ -1787,6 +1797,7 @@ packages:
     os: [linux]
     libc: [musl]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-win32-arm64-msvc@13.2.4:
@@ -1795,6 +1806,7 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-win32-ia32-msvc@13.2.4:
@@ -1803,6 +1815,7 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@next/swc-win32-x64-msvc@13.2.4:
@@ -1811,6 +1824,7 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
+    dev: false
     optional: true
 
   /@nodelib/fs.scandir@2.1.5:
@@ -1984,6 +1998,7 @@ packages:
     resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
     dependencies:
       tslib: localhost+4873/tslib@2.5.0
+    dev: false
 
   /@trysound/sax@0.2.0:
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
@@ -2540,6 +2555,7 @@ packages:
 
   /client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
+    dev: false
 
   /color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
@@ -3299,6 +3315,7 @@ packages:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
+    dev: false
 
   /node-emoji@1.11.0:
     resolution: {integrity: sha512-wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A==}
@@ -3405,6 +3422,7 @@ packages:
       nanoid: localhost+4873/nanoid@3.3.6
       picocolors: localhost+4873/picocolors@1.0.0
       source-map-js: localhost+4873/source-map-js@1.0.2
+    dev: false
 
   /postcss@8.4.21:
     resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==}
@@ -3643,6 +3661,7 @@ packages:
       '@babel/core': 7.21.3
       client-only: 0.0.1
       react: 18.2.0
+    dev: false
 
   /supertest@6.1.3:
     resolution: {integrity: sha512-v2NVRyP73XDewKb65adz+yug1XMtmvij63qIWHZzSX8tp6wiq6xBLUy4SUAd2NII6wIipOmHT/FD9eicpJwdgQ==}
@@ -9817,6 +9836,7 @@ packages:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==, registry: http://192.168.2.170:4873/, tarball: http://localhost:4873/tslib/-/tslib-2.5.0.tgz}
     name: tslib
     version: 2.5.0
+    dev: false
 
   localhost+4873/tsutils@3.21.0(typescript@4.7.4):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==, registry: http://192.168.2.170:4873/, tarball: http://localhost:4873/tsutils/-/tsutils-3.21.0.tgz}

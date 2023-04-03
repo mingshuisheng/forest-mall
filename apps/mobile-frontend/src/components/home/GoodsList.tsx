@@ -5,7 +5,7 @@ import {HiOutlineShoppingCart} from "react-icons/hi2";
 
 export const GoodsList: FC = () => {
   return (
-    <div className="w-full flex flex-col gap-[0.1rem]">
+    <div className="w-full flex flex-col gap-[0.15rem]">
       {
         new Array(100).fill(0).map((_, index) => <GoodsItem key={index}/>)
       }
@@ -16,7 +16,7 @@ export const GoodsList: FC = () => {
 
 const GoodsItem: FC = () => {
   return (
-    <Card className="h-[1.31rem] box-border py-[0.16rem]">
+    <Card round className="h-[1.31rem] box-border py-[0.16rem]">
       <div className="flex items-center">
         <Image width={100} height={100} className="w-[0.93rem] h-[0.8rem]" src="/images/apple.png" alt=""/>
         <div className="flex flex-col w-full">

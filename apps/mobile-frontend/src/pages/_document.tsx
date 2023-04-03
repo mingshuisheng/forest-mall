@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head/>
-      <body className="text-base">
+      <body className="text-base override">
       <Main/>
       <NextScript/>
       </body>

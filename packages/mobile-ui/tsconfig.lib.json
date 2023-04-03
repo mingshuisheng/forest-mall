@@ -3,7 +3,8 @@
   "compilerOptions": {
     "esModuleInterop": false,
     "module": "CommonJS",
-    "outDir": "dist/cjs"
+    "outDir": "dist/cjs",
+    "sourceMap": true
   },
   "exclude": ["**/*.spec.tsx", "src/index.css"],
   "include": ["src"]

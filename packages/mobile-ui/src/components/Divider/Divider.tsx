@@ -1,8 +1,7 @@
-import {FC} from "react";
-import {BaseProps} from "../../types/BaseProps";
+import {ComponentProps, FC} from "react";
 import classNames from "classnames";
 
-export type DividerProps = Omit<BaseProps, "children"> & {
+export type DividerProps = ComponentProps<'div'> & {
   direction?: "horizontal" | "vertical";
 }
 

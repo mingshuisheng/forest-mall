@@ -1,0 +1,5 @@
+export {PageFooter} from "./PageFooter"
+export * from "./TabBarPage"
+export {SearchPage} from "./search/SearchPage"
+export {SearchResultPage} from "./search/Result/SearchResultPage"
+export {CategoryPage} from "./category/CategoryPage"

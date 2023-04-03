@@ -1,4 +1,6 @@
-export * from "./Button"
 export * from "./TabBar"
 export * from "./Card"
 export * from "./Divider"
+export * from "./Tag"
+export * from "./Layout"
+export * from "./SideBar"
