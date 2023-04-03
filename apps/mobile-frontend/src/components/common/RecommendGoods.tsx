@@ -1,11 +1,14 @@
-import {FC} from "react";
+import {ComponentProps, FC} from "react";
 import {Card, Center, Tag} from "forest-mobile-ui";
 import Image from "next/image";
 import {HiOutlineShoppingCart} from "react-icons/hi2";
+import classNames from "classnames";
 
-export const RecommendGoods: FC = () => {
+
+
+export const RecommendGoods: FC<ComponentProps<'div'>> = ({className, ...restProps}) => {
   return(
-    <div className="w-full flex flex-col pb-3">
+    <div {...restProps} className={classNames("w-full flex flex-col pb-3", className)}>
       <div className="w-full flex items-center justify-center bg-white py-2 sticky top-0">
         <div className="w-[0.5rem] h-1 bg-gray-300 rounded-full"/>
         <div className="mx-1 text-primary font-bold">推荐</div>

@@ -40,7 +40,8 @@ module.exports = {
         primary: "#0EB6FF",
       },
       boxShadow: {
-        'card': '0 0.01rem 0.03rem 0.01rem rgba(0,0,0,0.3)'
+        'card': '0 0.01rem 0.03rem 0.01rem rgba(0,0,0,0.3)',
+        'footer': '0 -0.01rem 0.03rem 0.01rem rgba(0,0,0,0.3)'
       }
     },
   },

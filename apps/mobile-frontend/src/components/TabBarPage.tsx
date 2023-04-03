@@ -13,7 +13,7 @@ export const TabBarPage: FC<TabBarPageProps> = ({children, className}) => {
       <div className="flex-1 w-full overflow-auto relative">
         {children}
       </div>
-      <PageFooter/>
+      <PageFooter className="z-10"/>
     </CommonPage>
   )
 }

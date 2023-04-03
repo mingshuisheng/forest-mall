@@ -5,7 +5,7 @@ import {HiOutlineShoppingCart} from "react-icons/hi2";
 
 export const GoodsList: FC = () => {
   return (
-    <div className="w-full flex flex-col gap-[0.15rem]">
+    <div className="w-full flex flex-col gap-[0.15rem] pb-3">
       {
         new Array(100).fill(0).map((_, index) => <GoodsItem key={index}/>)
       }

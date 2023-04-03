@@ -1,11 +1,9 @@
 import {FC} from "react";
-import {TabBarPage} from "@/components";
+import {SortPage} from "@/components/sort/SortPage";
 
 const Page: FC = () => {
   return (
-    <TabBarPage>
-      <h1>Sort</h1>
-    </TabBarPage>
+    <SortPage/>
   )
 }
 
